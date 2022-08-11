@@ -26,7 +26,6 @@ function findLongestWord(words) {
   }
   let longestWord = "";
   for (let i = 0; i < words.length; i++) {
-    // console.log(countries[i])
     if (longestWord.length < words[i].length) {
       longestWord = words[i];
     }
